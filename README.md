@@ -7,6 +7,80 @@ This repository contain the calculator code , the languages used are :-HTM, CSS 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="about.css">
     <title>calculator</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #738146;
+    font-family: Arial, sans-serif;
+  }
+
+  .calculator {
+    background: rgb(168, 175, 124);
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(14, 13, 13, 0.1);
+  }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1:hover{
+    color:rgb(241, 237, 237);
+    background-color: #101010;
+    border-radius: 5px;
+}
+#display {
+width: 94%;
+height: 40px;
+font-size: 20px;
+margin-bottom: 10px;
+text-align: right;
+padding: 10px;
+border: 1px solid #515d06;
+border-radius: 5px;
+}
+
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 60px);
+gap: 10px;
+}
+
+button {
+padding: 15px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+cursor:auto;
+background-color: #eee;
+transition: background-color 0.2s;
+}
+
+button:hover {
+background-color: #151515ac;
+color:rgb(235, 229, 223)
+}
+
+.operator {
+background-color: #d5d4d1;
+}
+
+.equal {
+background-color: #f6faf3;
+}
+
+.clear {
+background-color: #d7ceceae;
+color: rgb(15, 15, 15);
+}
+.backspace {
+  background-color: #dddada;
+  color: rgb(22, 21, 21); 
+}
+
+    </style>
        </head>
 <body>
     <div class="calculator">
@@ -66,3 +140,75 @@ This repository contain the calculator code , the languages used are :-HTM, CSS 
       
 </body>
 </html>
+<!--the css code here for the design of the claculator and its visualization -->
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #738146;
+    font-family: Arial, sans-serif;
+  }
+
+  .calculator {
+    background: rgb(168, 175, 124);
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(14, 13, 13, 0.1);
+  }
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1:hover{
+    color:rgb(241, 237, 237);
+    background-color: #101010;
+    border-radius: 5px;
+}
+#display {
+width: 94%;
+height: 40px;
+font-size: 20px;
+margin-bottom: 10px;
+text-align: right;
+padding: 10px;
+border: 1px solid #515d06;
+border-radius: 5px;
+}
+
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 60px);
+gap: 10px;
+}
+
+button {
+padding: 15px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+cursor:auto;
+background-color: #eee;
+transition: background-color 0.2s;
+}
+
+button:hover {
+background-color: #151515ac;
+color:rgb(235, 229, 223)
+}
+
+.operator {
+background-color: #d5d4d1;
+}
+
+.equal {
+background-color: #f6faf3;
+}
+
+.clear {
+background-color: #d7ceceae;
+color: rgb(15, 15, 15);
+}
+.backspace {
+  background-color: #dddada;
+  color: rgb(22, 21, 21); 
+}
